@@ -9,6 +9,7 @@ import { FileListComponent } from './file-list/file-list.component';
 import { FileEditComponent } from './file-edit/file-edit.component';
 import { FileViewComponent } from './file-view/file-view.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import {TreeModule} from '@circlon/angular-tree-component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatListModule,
-    MatTabsModule
+    MatTabsModule,
+    TreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

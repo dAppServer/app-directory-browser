@@ -1,13 +1,4 @@
-<mat-list dense style=" height: 100vh; scroll-behavior: auto; overflow: scroll!important;">
-  <ng-container *ngFor="let file of files">
-    <mat-list-item  *ngIf="file.isDirectory">
-      <p>{{file.name}}/</p>
-    </mat-list-item>
-  </ng-container>
-  <ng-container *ngFor="let file of files">
-    <mat-list-item  *ngIf="file.isFile">
-      <p>{{file.name}}</p>
-    </mat-list-item>
-  </ng-container>
+<div style=" height: 100vh; scroll-behavior: auto; overflow: scroll!important;">
 
-</mat-list>
+  <tree-root  #tree [nodes]="nodes" [options]="options"></tree-root>
+</div>

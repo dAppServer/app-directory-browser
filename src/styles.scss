@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
 @use '@angular/material' as mat;
-
 $lethean-typography: mat.define-typography-config(
   $font-family: "'Montserrat', sans-serif",
   $display-4: mat.define-typography-level(112px, 112px, 300, $letter-spacing: -0.05em),
@@ -185,6 +183,7 @@ $lethean-theme: mat.define-dark-theme((
 }
 
 
+@import '~@circlon/angular-tree-component/css/angular-tree-component.css';
 
 
 html, body { height: 100%; overflow: hidden }
