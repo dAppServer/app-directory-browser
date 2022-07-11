@@ -7,6 +7,6 @@
   "depends": ["server"],
   "app": {
     "type": "zip",
-    "url": "https://github.com/dAppServer/directory-bowser/releases/latest/download/directory-browser.zip"
+    "url": "https://github.com/dAppServer/app-directory-browser/releases/latest/download/directory-browser.zip"
   }
 }
