@@ -1,0 +1,12 @@
+{
+  "code": "app-directory-browser",
+  "type": "app",
+  "name": "File Manager",
+  "install": "fs",
+  "version": "0.0.1",
+  "depends": ["server"],
+  "app": {
+    "type": "zip",
+    "url": "https://github.com/dAppServer/directory-bowser/releases/latest/download/directory-browser.zip"
+  }
+}
