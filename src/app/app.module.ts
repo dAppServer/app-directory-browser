@@ -10,7 +10,6 @@ import { FileEditComponent } from './file-edit/file-edit.component';
 import { FileViewComponent } from './file-view/file-view.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {TreeModule} from '@circlon/angular-tree-component';
-import {NgxIframeMessengerModule} from 'ngx-iframe-messenger';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import {NgxIframeMessengerModule} from 'ngx-iframe-messenger';
     FlexLayoutModule,
     MatListModule,
     MatTabsModule,
-    TreeModule,
-    NgxIframeMessengerModule
+    TreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
