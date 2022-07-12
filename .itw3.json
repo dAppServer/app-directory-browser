@@ -3,7 +3,7 @@
   "type": "app",
   "name": "File Manager",
   "install": "fs",
-  "version": "v0.0.4",
+  "version": "v0.0.5",
   "depends": ["server"],
   "app": {
     "type": "zip",
