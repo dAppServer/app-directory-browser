@@ -18,3 +18,10 @@
 
   </div>
 </div>
+<ngx-iframe-messenger
+  [isParent]="false"
+  [router]="router"
+  [appName]="'app-directory-browser'"
+  [parentOrigin]="'http://localhost:*'"
+  (parentToChildPayload)="onPayloadReceived($event)">
+</ngx-iframe-messenger>
