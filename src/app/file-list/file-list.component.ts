@@ -44,7 +44,11 @@ export class FileListComponent implements OnInit {
 
     this.files = await req.json()
 
-    return this.files.sort((a:any,b:any) => a.isDirectory < b.isDirectory).map((file: any) => this.mapData(file))
+    return this.files
+
+      .sort((a:any,b:any) => a.name.startsWith('.') < b.name.startsWith('.'))
+      .sort((a:any,b:any) => a.isDirectory < b.isDirectory)
+      .map((file: any) => this.mapData(file))
 
   }
 
